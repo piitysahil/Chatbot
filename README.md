@@ -1,17 +1,8 @@
-# Chatbot
-Chatbot which helps you with basic queries currenty at prototype
-# 🤖 React Chatbot Project
+# React + Vite
 
-An interactive chatbot interface built to practice React fundamentals and state persistence.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 🚀 Key Features
-- **Async Communication:** Handles bot responses asynchronously with loading indicators.
-- **Smart History:** Saves your entire conversation to the browser's LocalStorage.
-- **Timestamps:** Every message is tracked with real-time data using `dayjs`.
-- **Clean Code:** Developed with strict ESLint rules for industry-standard code quality.
+Currently, two official plugins are available:
 
-## 🛠️ Built With
-- **React 18** (Functional Components & Hooks)
-- **Vite** (Build Tool)
-- **SuperSimpleDev API** (Bot Logic)
-- **CSS3** (Custom Flexbox layout)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
